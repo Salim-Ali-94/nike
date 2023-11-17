@@ -1,3 +1,4 @@
+import MorphingBlob from "./components/MorphingBlob";
 
 
 export default function Home() {
@@ -6,7 +7,10 @@ export default function Home() {
 
     <main>
 
-      <div>
+      <div style={{ "paddingLeft": 200, "paddingTop": 200 }}>
+
+        <MorphingBlob />
+
       </div>
 
     </main>

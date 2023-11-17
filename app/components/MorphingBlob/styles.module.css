@@ -1,0 +1,28 @@
+
+.blob {
+
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(47, 184, 255, 0.42) 31.77%, #5f9df1 100%);
+    mix-blend-mode: color-dodge;
+    /* animation: move 25s infinite alternate; */
+    animation: move 5s infinite alternate;
+
+}
+
+@keyframes move {
+
+    from {
+
+        transform: translate(-100px, -50px) rotate(-90deg);
+
+    }
+
+    to {
+
+        transform: translate(500px, 100px) rotate(-10deg);
+
+    }
+
+}
